@@ -1,11 +1,11 @@
 html{
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
-body{
+/* body{
     overflow-x: hidden;
-}
+} */
 
   *,
   *::before,
