@@ -88,6 +88,10 @@
     }
 
     /* ---------- Advantage alanı ----------- */
+    .advantage-list{
+        gap: 72px;
+    }
+
     .advantage-item{
         width: 100%;
     }
