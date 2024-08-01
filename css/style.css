@@ -48,6 +48,17 @@ section{
     }
 
 
+/* -------- Clik ile sayfaları kapatmak için CSS --------- */
+
+.modal-close{
+    display: none;
+}
+
+/* --------- Hamburger menüyü saklama ----------- */
+.hamburger-svg{
+    display: none;
+}
+
 /* -----P'ler için ortak stiller ----- */
 .address-item-link, .advantage-item-text, .team-member-role, .portfolio-category{
     font-family: var(--font-family);
@@ -316,7 +327,7 @@ svg{
 
 .portfolio-card{
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-wrapper{
@@ -661,10 +672,3 @@ footer{
 }
 
 
-
-/* -------- Clik ile sayfaları kapatmak için CSS --------- */
-
-
-.modal-close{
-    display: none;
-}

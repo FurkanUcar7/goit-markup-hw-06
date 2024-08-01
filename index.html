@@ -19,10 +19,8 @@
     <!-- Header alanı, içinde logo, navbar ve iletişim bilgileri kısmı var -->
     <header class="header-content">
         <div class="header-wrapper container">
-            <div class="logo-div">
-                <a class="logo-content" href="#">Web<span class="logo-span">Studio</span></a>
-            </div>
             <nav class="nav-content">
+                <a class="logo-content" href="#">Web<span class="logo-span">Studio</span></a>
                 <ul class="nav-list">
                     <li class="nav-list-item">
                         <a class="nav-item-link" href="./index.html">Studio</a>
@@ -45,6 +43,63 @@
                     </li>
                 </ul>
             </address>
+            <div id="hamburger-menu-open" class="hamburger-svg">
+                <svg class="icon icon-hamburger" width="24" height="24"><use href="./images/icons.svg#icon-hamburger"></use></svg>
+            </div>
+            <div id="hamburger-menu" class="hamburger-menu modal-close">
+                <button id="hamburger-menu-exit" type="button" class="modal-card-exit">
+                    <svg class="icon icon-exit" width="8" height="8"><use href="./images/icons.svg#icon-exit"></use></svg>
+                </button>
+                <ul class="hamburge-menu-list">
+                    <li class="hamburger-menu-item">
+                        <a href="" class="hamburger-menu-link">
+                            Studio
+                        </a>
+                    </li>
+                    <li class="hamburger-menu-item">
+                        <a href="" class="hamburger-menu-link">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="hamburger-menu-item">
+                        <a href="" class="hamburger-menu-link">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+                <address class="hamburger-address">
+                    <ul class="hamburger-address-list">
+                        <li class="hamburger-address-item">
+                            <a class="hamburger-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="hamburger-address-item">
+                            <a class="hamburger-address-link" href="tel:+11(000)111-11-11">+11(000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+                <ul class="social-media-list">
+                    <li class="social-media-item">
+                        <a class="social-media-link" href="#">
+                            <svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a class="social-media-link" href="#">
+                            <svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a class="social-media-link" href="#">
+                            <svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg>
+                        </a>
+                    </li>
+                    <li class="social-media-item">
+                        <a class="social-media-link" href="#">
+                            <svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -388,7 +443,7 @@
             </form>
         </div>
     </div>
-
+    
     <script src="index.js"></script>
 </body>
 </html>
